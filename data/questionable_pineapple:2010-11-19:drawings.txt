@@ -1,0 +1,4 @@
+Questionable pineapple
+<p>
+<img src="/content/images/questionable.pineapple.png" />
+</p>

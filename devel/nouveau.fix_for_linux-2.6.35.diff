@@ -1,0 +1,35 @@
+diff --git a/drivers/gpu/drm/nouveau/nouveau_fbcon.c b/drivers/gpu/drm/nouveau/nouveau_fbcon.c
+index 8e7dc1d..3943a00 100644
+--- a/drivers/gpu/drm/nouveau/nouveau_fbcon.c
++++ b/drivers/gpu/drm/nouveau/nouveau_fbcon.c
+@@ -317,6 +317,9 @@ nouveau_fbcon_create(struct drm_device *dev, uint32_t fb_width,
+ 	info->fix.mmio_len = pci_resource_len(dev->pdev, 1);
+ 
+ 	/* Set aperture base/size for vesafb takeover */
++
++    info->apertures = alloc_apertures(1);
++
+ #if defined(__i386__) || defined(__x86_64__)
+ 	if (nouveau_fbcon_has_vesafb_or_efifb(dev)) {
+ 		/* Some NVIDIA VBIOS' are stupid and decide to put the
+@@ -326,15 +329,15 @@ nouveau_fbcon_create(struct drm_device *dev, uint32_t fb_width,
+ 		 * we have left is to find out lfb_base the same way
+ 		 * vesafb did.
+ 		 */
+-		info->aperture_base = screen_info.lfb_base;
+-		info->aperture_size = screen_info.lfb_size;
++		info->apertures->ranges->base = screen_info.lfb_base;
++		info->apertures->ranges->size = screen_info.lfb_size;
+ 		if (screen_info.orig_video_isVGA == VIDEO_TYPE_VLFB)
+-			info->aperture_size *= 65536;
++			info->apertures->ranges->size *= 65536;
+ 	} else
+ #endif
+ 	{
+-		info->aperture_base = info->fix.mmio_start;
+-		info->aperture_size = info->fix.mmio_len;
++		info->apertures->ranges->base = info->fix.mmio_start;
++		info->apertures->ranges->size = info->fix.mmio_len;
+ 	}
+ 
+ 	info->pixmap.size = 64*1024;

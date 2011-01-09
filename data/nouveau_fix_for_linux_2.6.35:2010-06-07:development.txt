@@ -1,0 +1,15 @@
+Fix for compiling nouveau drm for linux 2.6.35
+
+<p>
+It seems that the fb_info-structure has changed slightly in the recent
+linux-kernels.
+</p>
+
+<p>
+I have no idea if this is a proper fix or not, but it managed to compile and
+it seems to work as expected.
+</p>
+
+<p>
+<a href="/devel/nouveau.fix_for_linux-2.6.35.diff">patch</a>
+</p>

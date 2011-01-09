@@ -1,0 +1,4 @@
+A cowering boxer
+<p>
+<img src="/content/images/cowering.boxer.png" />
+</p>

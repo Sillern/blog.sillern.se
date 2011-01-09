@@ -1,0 +1,4 @@
+A thai boxer guarding
+<p>
+<img src="/content/images/defensive.boxer.png" />
+</p>

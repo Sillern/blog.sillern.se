@@ -1,0 +1,13 @@
+Some silly drawings
+<p>
+<img src="/content/images/strange.happiness.png" />
+</p>
+<p>
+<img src="/content/images/dinosaur.rubber.duck.png" />
+</p>
+<p>
+<img src="/content/images/grinning.snail.png" />
+</p>
+<p>
+<img src="/content/images/angry.alligator.png" />
+</p>

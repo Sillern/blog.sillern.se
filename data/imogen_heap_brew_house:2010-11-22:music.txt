@@ -1,0 +1,20 @@
+Imogen Heap, Brew House, Gothenburg
+<p>
+Imogen Heap performed a concert at Brew House in Gothenburg this weekend.
+</p>
+<p>
+    She started off presenting her band, who played individual sets of their own, a nice idea, although it will require a talented band that actually have music by themselves.
+    <a href="/content/images/imogen.heap.presenting.jpg">
+        <img src="/content/images/imogen.heap.presenting.thumbnail.jpg" />
+    </a>
+</p>
+<p>
+    <a href="/content/images/imogen.heap.guitar-keyboard-thingy.jpg">
+        <img src="/content/images/imogen.heap.guitar-keyboard-thingy.thumbnail.jpg" />
+    </a>
+</p>
+<p>
+    <a href="/content/images/imogen.heap.stage.jpg">
+        <img src="/content/images/imogen.heap.stage.thumbnail.jpg" />
+    </a>
+</p>

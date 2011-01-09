@@ -1,0 +1,4 @@
+Pens, version 1
+<p>
+<img src="/content/images/pens_v1.png" />
+</p>

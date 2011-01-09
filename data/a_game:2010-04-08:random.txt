@@ -1,0 +1,2 @@
+A screenshot of a game.
+<img src="/content/images/game1.png" />

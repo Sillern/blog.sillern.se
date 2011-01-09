@@ -1,0 +1,6 @@
+A horse
+<p>
+    <a href="/content/images/standard.horse.png">
+        <img src="/content/images/standard.horse.thumbnail.png" />
+    </a>
+</p>
