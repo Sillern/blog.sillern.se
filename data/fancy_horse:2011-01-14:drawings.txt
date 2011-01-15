@@ -1,0 +1,6 @@
+Another horse
+<p>
+    <a href="/content/images/fancy.horse.c.png">
+        <img src="/content/images/fancy.horse.c.thumbnail.png" />
+    </a>
+</p>
